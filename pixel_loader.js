@@ -1,4 +1,4 @@
-var ttd_dom_ready = (function () {
+var camp_dom_ready = (function () {
     var t,
       n,
       i = {
@@ -119,10 +119,10 @@ var ttd_dom_ready = (function () {
     );
   })();
   
-  function TTDUniversalPixelApi(C) {
+  function CAMPUniversalPixelApi(C) {
     debugger
     (this.getVersion = function () {
-      return "1.1.0";
+      return "1.0.0";
     }),
     (this.init = function (e, o, t) {
       if (
@@ -288,7 +288,7 @@ var ttd_dom_ready = (function () {
               n.setAttribute("width", 0),
               n.setAttribute("style", "display:none;"),
               n.setAttribute("src", a),
-              n.setAttribute("title", "TTD Universal Pixel"),
+              n.setAttribute("title", "CAMP Universal Pixel"),
               "complete" === document.readyState
                   ? setTimeout(i, 0)
                   : window.addEventListener
